@@ -16,8 +16,14 @@
 # print(name[0])
 
 
+# cities = ["Atlanta", "Baltimore", "Chicago",
+# "Denver", "Los Angeles", "Seattle"]
+# print(cities[0])
+# cities.append("New York")
+# print(cities[6])
+
+
 cities = ["Atlanta", "Baltimore", "Chicago",
 "Denver", "Los Angeles", "Seattle"]
+cities.insert(0, "New York")
 print(cities[0])
-cities.append("New York")
-print(cities[6])
