@@ -44,3 +44,19 @@
 # print("\nUpdated Movie List:")
 # for movie in movies:
 #     print(movie)
+
+
+mainnum = []
+for i in range(1, 6):
+    num = int(input(f"Enter number {i} of 5: "))
+    mainnum.append(num)
+print(mainnum)
+sumofallnum = sum(mainnum)
+average = sumofallnum / len(mainnum)
+largestnum = max(mainnum)
+smallestnum = min(mainnum)
+sortednum = sorted(mainnum)
+print(f"The sum of all numbers is: {sumofallnum}")
+print(f"The average of all numbers is: {average}")
+print(f"The largest number is: {largestnum}, and the smallest number is: {smallestnum}")
+print(f"The sorted list of numbers is: {sortednum}")
