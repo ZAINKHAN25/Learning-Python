@@ -25,11 +25,20 @@
 #     i -= 1
 
 
-def checkifodd(num):
-    if num % 2 != 0:
-        return "It's an odd number."
-    else:
-        return "It's an even number."    
+# def checkifodd(num):
+#     if num % 2 != 0:
+#         return "It's an odd number."
+#     else:
+#         return "It's an even number."    
     
-ques = int(input("Enter a number to check if it's odd or even: "))
-print(checkifodd(ques))   
+# ques = int(input("Enter a number to check if it's odd or even: "))
+# print(checkifodd(ques))   
+
+
+
+movies = ["Inception", "The Matrix", "Interstellar", "The Dark Knight", "Pulp Fiction"]
+for movie in movies:
+    print(f"Movie: {movie}")
+movies.append("Fight Club")
+for movie in movies:
+    print(f"Updated Movie List: {movie}")
