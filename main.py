@@ -73,3 +73,13 @@
 # numbers = [1, 2, 3, 4, 5]
 # for num in numbers:
 #     print(num)
+
+
+
+# numbers = [5, 2, 9, 1, 7]
+# sorted_list = sorted(numbers)
+# print(numbers)           
+# print(sorted_list)      
+# min_val = min(numbers)
+# max_val = max(numbers)
+# print(min_val, max_val)

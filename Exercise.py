@@ -36,11 +36,11 @@
 
 
 
-movies = ["Inception", "The Matrix", "Interstellar", "The Dark Knight", "Pulp Fiction"]
-print("Movie List:")
-for movie in movies:
-    print(movie)
-movies.append("Fight Club")
-print("\nUpdated Movie List:")
-for movie in movies:
-    print(movie)
+# movies = ["Inception", "The Matrix", "Interstellar", "The Dark Knight", "Pulp Fiction"]
+# print("Movie List:")
+# for movie in movies:
+#     print(movie)
+# movies.append("Fight Club")
+# print("\nUpdated Movie List:")
+# for movie in movies:
+#     print(movie)
