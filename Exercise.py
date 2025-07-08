@@ -12,7 +12,24 @@
 #     print("You're a senior citizen.")
 
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-for i in range(1, 11):
-    print(f"{num} X {i} = {num * i}")
+# for i in range(1, 11):
+#     print(f"{num} X {i} = {num * i}")
+
+
+# num = int(input("Enter a number: "))
+# i = 10
+# while i >= 1:
+#     print(f"{num} X {i} = {num * i}")
+#     i -= 1
+
+
+def checkifodd(num):
+    if num % 2 != 0:
+        return "It's an odd number."
+    else:
+        return "It's an even number."    
+    
+ques = int(input("Enter a number to check if it's odd or even: "))
+print(checkifodd(ques))   
