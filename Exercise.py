@@ -37,8 +37,10 @@
 
 
 movies = ["Inception", "The Matrix", "Interstellar", "The Dark Knight", "Pulp Fiction"]
+print("Movie List:")
 for movie in movies:
-    print(f"Movie: {movie}")
+    print(movie)
 movies.append("Fight Club")
+print("\nUpdated Movie List:")
 for movie in movies:
-    print(f"Updated Movie List: {movie}")
+    print(movie)
