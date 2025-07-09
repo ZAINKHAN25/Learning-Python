@@ -46,17 +46,40 @@
 #     print(movie)
 
 
-mainnum = []
-for i in range(1, 6):
-    num = int(input(f"Enter number {i} of 5: "))
-    mainnum.append(num)
-print(mainnum)
-sumofallnum = sum(mainnum)
-average = sumofallnum / len(mainnum)
-largestnum = max(mainnum)
-smallestnum = min(mainnum)
-sortednum = sorted(mainnum)
-print(f"The sum of all numbers is: {sumofallnum}")
-print(f"The average of all numbers is: {average}")
-print(f"The largest number is: {largestnum}, and the smallest number is: {smallestnum}")
-print(f"The sorted list of numbers is: {sortednum}")
+# mainnum = []
+# for i in range(1, 6):
+#     num = int(input(f"Enter number {i} of 5: "))
+#     mainnum.append(num)
+# print(mainnum)
+# sumofallnum = sum(mainnum)
+# average = sumofallnum / len(mainnum)
+# largestnum = max(mainnum)
+# smallestnum = min(mainnum)
+# sortednum = sorted(mainnum)
+# print(f"The sum of all numbers is: {sumofallnum}")
+# print(f"The average of all numbers is: {average}")
+# print(f"The largest number is: {largestnum}, and the smallest number is: {smallestnum}")
+# print(f"The sorted list of numbers is: {sortednum}")
+
+
+
+numlist = []
+sortedlist = []
+evenNum = []
+oddNum = []
+
+
+for i in range(5):
+    num = int(input(f"Enter number {i + 1} of 5: "))
+    numlist.append(num)
+
+sortedlist = sorted(numlist)
+for num in sortedlist:
+    if num % 2 == 0:
+        evenNum.append(num)
+    else:
+        oddNum.append(num)
+
+print(f"The sorted list of numbers is: {sortedlist}")
+print(f"The even numbers are: {evenNum}")
+print(f"The odd numbers are: {oddNum}")
