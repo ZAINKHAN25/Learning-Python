@@ -85,26 +85,26 @@
 # print(f"The odd numbers are: {oddNum}")
 
 
-student = {
-    "name": "",
-    "age": 0,
-    "grade": {
-        "math": 0,
-        "science": 0,
-        "english": 0
-    }
-}
+# student = {
+#     "name": "",
+#     "age": 0,
+#     "grade": {
+#         "math": 0,
+#         "science": 0,
+#         "english": 0
+#     }
+# }
 
-student["name"] = input("Enter student's name: ")
-student["age"] = int(input("Enter student's age: "))
-student["grade"]["math"] = int(input("Enter student's math grade: "))
-student["grade"]["science"] = int(input("Enter student's science grade: ")) 
-student["grade"]["english"] = int(input("Enter student's english grade: "))
+# student["name"] = input("Enter student's name: ")
+# student["age"] = int(input("Enter student's age: "))
+# student["grade"]["math"] = int(input("Enter student's math grade: "))
+# student["grade"]["science"] = int(input("Enter student's science grade: ")) 
+# student["grade"]["english"] = int(input("Enter student's english grade: "))
 
-average_grade = (student["grade"]["math"] + student["grade"]["science"] + student["grade"]["english"]) / 3
-print(f"\nStudent Name: {student['name']}")
-print(f"Student Age: {student['age']}")
-print(f"Math Grade: {student['grade']['math']}")
-print(f"Science Grade: {student['grade']['science']}")
-print(f"English Grade: {student['grade']['english']}")
-print(f"Average Grade: {average_grade:.0f}")
+# average_grade = (student["grade"]["math"] + student["grade"]["science"] + student["grade"]["english"]) / 3
+# print(f"\nStudent Name: {student['name']}")
+# print(f"Student Age: {student['age']}")
+# print(f"Math Grade: {student['grade']['math']}")
+# print(f"Science Grade: {student['grade']['science']}")
+# print(f"English Grade: {student['grade']['english']}")
+# print(f"Average Grade: {average_grade:.0f}")
