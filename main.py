@@ -100,8 +100,11 @@
 #     print(key, ":", value)
 
 
-import random
-print(random.randint(1, 100))  # Generates a random integer between 1 and 100
-print(random.choice(['apple', 'banana', 'cherry']))  # Randomly selects an item from the list
-print(random.sample(range(1, 100), 5))  # Randomly selects
-print(random.shuffle([1, 2, 3, 4, 5]))  # Randomly shuffles the list
+# import random
+# print(random.randint(1, 100))  # Generates a random integer between 1 and 100
+# print(random.choice(['apple', 'banana', 'cherry']))  # Randomly selects an item from the list
+# print(random.sample(range(1, 100), 5))  # Randomly selects
+# print(random.shuffle([1, 2, 3, 4, 5]))  # Randomly shuffles the list
+
+
+
