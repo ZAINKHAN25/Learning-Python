@@ -83,3 +83,19 @@
 # min_val = min(numbers)
 # max_val = max(numbers)
 # print(min_val, max_val)
+
+
+
+student = {
+    "name": "Your Name",
+    "age": 0,
+    "grade": {
+        "math": 0,
+        "science": 0,
+        "english": 0
+    },
+    "subject": "None"
+}
+for key,value in student.items():
+    print(key, ":", value)
+    

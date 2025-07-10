@@ -63,23 +63,23 @@
 
 
 
-numlist = []
-sortedlist = []
-evenNum = []
-oddNum = []
+# numlist = []
+# sortedlist = []
+# evenNum = []
+# oddNum = []
 
 
-for i in range(5):
-    num = int(input(f"Enter number {i + 1} of 5: "))
-    numlist.append(num)
+# for i in range(5):
+#     num = int(input(f"Enter number {i + 1} of 5: "))
+#     numlist.append(num)
 
-sortedlist = sorted(numlist)
-for num in sortedlist:
-    if num % 2 == 0:
-        evenNum.append(num)
-    else:
-        oddNum.append(num)
+# sortedlist = sorted(numlist)
+# for num in sortedlist:
+#     if num % 2 == 0:
+#         evenNum.append(num)
+#     else:
+#         oddNum.append(num)
 
-print(f"The sorted list of numbers is: {sortedlist}")
-print(f"The even numbers are: {evenNum}")
-print(f"The odd numbers are: {oddNum}")
+# print(f"The sorted list of numbers is: {sortedlist}")
+# print(f"The even numbers are: {evenNum}")
+# print(f"The odd numbers are: {oddNum}")
