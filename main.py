@@ -86,16 +86,16 @@
 
 
 
-student = {
-    "name": "Your Name",
-    "age": 0,
-    "grade": {
-        "math": 0,
-        "science": 0,
-        "english": 0
-    },
-    "subject": "None"
-}
-for key,value in student.items():
-    print(key, ":", value)
+# student = {
+#     "name": "Your Name",
+#     "age": 0,
+#     "grade": {
+#         "math": 0,
+#         "science": 0,
+#         "english": 0
+#     },
+#     "subject": "None"
+# }
+# for key,value in student.items():
+#     print(key, ":", value)
     
