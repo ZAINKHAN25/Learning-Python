@@ -108,3 +108,10 @@
 
 
 
+text = "  hello, world  "
+print(text.upper())
+print(text.lower()) 
+print(text.strip())  # Removes leading and trailing whitespace
+print(text.replace("world", "Python"))  # Replaces 'world' with 'Python'
+print(text.split(","))  # Splits the string into a list of words
+print(text.find("world"))

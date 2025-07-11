@@ -110,10 +110,17 @@
 # print(f"Average Grade: {average_grade:.0f}")
 
 
-import random
-randNum = random.randint(1, 10)
-playerGuess = int(input("Guess a number between 1 and 10: "))
-if playerGuess == randNum:
-    print("Congratulations! You guessed the correct number.")
-else:
-    print(f"Sorry, the correct number was {randNum}. Better luck next time!")
+# import random
+# randNum = random.randint(1, 10)
+# playerGuess = int(input("Guess a number between 1 and 10: "))
+# if playerGuess == randNum:
+#     print("Congratulations! You guessed the correct number.")
+# else:
+#     print(f"Sorry, the correct number was {randNum}. Better luck next time!")
+
+
+sentence = "   Python is awesome, isn't it?   "
+print(sentence.upper())  # Converts to uppercase
+print(sentence.strip())  # Removes leading and trailing whitespace
+print(sentence.replace("awesome", "fantastic"))  # Replaces 'awesome' with 'fantastic'
+print(sentence.split(","))  # Splits the sentence into words
